@@ -1,0 +1,59 @@
+.gen{
+	height: 100px;
+	float: left;
+	display: block;
+}
+
+.d100{
+	width: 100%;
+}
+
+.d50{
+	width: 50%;
+}
+
+.d33{
+	width: 33.33%;
+}
+
+.d25{
+	width: 25%;
+}
+
+.azul{
+	background-color: blue;
+}
+
+.verde{
+	background-color: green;
+}
+
+.container{
+	margin-top: 0 auto;
+}
+
+.centrado{
+	display: block;
+	margin: auto;
+	max-width: 1000px;
+}
+
+
+@media all and (max-width: 768px){
+
+	.centrado{
+	display: block;
+	margin: auto;
+	max-width: 800px;
+}
+
+.d50{
+	width: 100%;
+}
+
+.d25{
+	width: 100%;
+}
+
+}
+

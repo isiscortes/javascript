@@ -1,0 +1,75 @@
+
+.d100{
+	width: 100%;
+}
+
+.d50{
+	width: 50%;
+}
+
+.d33{
+	width: 33.33%;
+}
+
+.d25{
+	width: 25%;
+}
+
+
+.green{
+	display: block;
+	margin: auto;
+	max-width: 1000px;
+	background-color: green;
+	height: 420px;
+}
+
+.pink{
+	display: block;
+	margin: auto;
+	max-width: 1000px;
+	background-color: pink;
+	height: 420px;
+}
+
+
+.cuadrado1{
+	background-color: yellow;
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.cuadrado{
+	background-color: blue;
+	width: 100px;
+    height: 100px;
+    position: relative;
+    left: 450px;
+    top: 150px;
+
+}
+
+.cuadrado2{
+	background-color: pink;
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+
+@media all and (max-width: 768px){
+
+}
